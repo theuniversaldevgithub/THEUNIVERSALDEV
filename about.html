@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>THE UNIVERSAL DEV</title>
     <link rel="shortcut icon" type="image/png" href="favicondev.png">
 </head>
@@ -20,7 +21,7 @@
         <div>
         </div>
     <section class="text-gray-900 body-font">
-        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"data-aos="fade-down">
           <img src="UNIVERSAL DEVS.png">
           <div class="text-center lg:w-2/3 w-full">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-500">THE UNIVERSAL DEV</h1>
@@ -77,5 +78,11 @@
 </div>
 </div>
 </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 300, duration: 700
+  });
+</script>                                                   
 </body>
 </html>
