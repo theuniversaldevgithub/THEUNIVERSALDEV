@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <title>THE UNIVERSAL DEV</title>
     <link rel="shortcut icon" type="image/png" href="favicondev.png">
 </head>
+   <body onload="myFunction()">
+  <div id="loading"></div>
 <header class="text-red-600 body-font"><font face="Comic Sans MS">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       </svg>
@@ -268,6 +272,19 @@
   AOS.init({
     offset: 300, duration: 700
   });
+</script>
+<script>
+  // $(document).ready(function(){
+    // 	$('div#loading').removeAttr('id');
+  // });
+  var preloader = document.getElementById("loading");
+  // window.addEventListener('load', function(){
+  // 	preloader.style.display = 'none';
+  // 	})
+
+  function myFunction(){
+    preloader.style.display = 'none';
+  };
 </script>
 </body>
 </html>
