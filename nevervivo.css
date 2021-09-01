@@ -1,0 +1,54 @@
+*{
+    background-color: pink;
+}
+
+
+#ts1{
+    color: red;
+    font-family: 'Rampart One', cursive;
+    font-size: 30px;
+}
+
+#ts2{
+    color: red;
+    font-family: 'Rampart One', cursive;
+    font-size: 30px;
+}
+p{
+    border: 6px solid rgb(212, 73, 73);
+    color: red;
+    background-color: black;
+    font-size: 30px;
+    font-family: 'Rampart One', cursive;
+}
+.btnn{
+    background-color: rgb(204, 54, 79);
+    color: white;
+    font-size: 50px;
+    font-family: 'Rampart One', cursive;
+}
+#never{
+    font-size: 50px;
+    color: red;
+    background-color:pink;
+    font-family: 'Rampart One', cursive;
+}
+.vivo{
+    font-family: 'Rampart One', cursive;
+    color:rgb(77, 77, 226) ;
+    font-size: 50px;
+}
+
+#vivo{
+    background-color: rgb(77, 77, 226);
+    border: 6px solid rgb(238, 10, 10);
+    font-size: 30px;
+    color: white;
+}
+    
+.btnv{
+    background-color: rgb(77, 77, 226);
+    font-size:50px;
+    color: white;
+    font-family: 'Rampart One', cursive;
+}

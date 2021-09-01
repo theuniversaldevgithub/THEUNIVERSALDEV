@@ -1,0 +1,26 @@
+*{
+    background-color: rgb(0, 0, 0);
+}
+
+#onmy{
+    font-size: 50px;
+    color: white;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+.tr{
+    font-size: 30px;
+   color: white;
+   font-family: 'ZCOOL KuaiLe', cursive;
+}
+p{
+    font-size: 30px;
+    color: white;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    border:2px solid white;
+}
+.download{
+    font-size: 50px;
+    color:black ;
+    background-color: white;
+    font-family: 'ZCOOL KuaiLe',cursive 
+}
