@@ -1,20 +1,20 @@
 #f1{
     
     color: rgb(230, 56, 56);
-    font-family: cursive;
+    font-family: 'IBM Plex Sans KR', sans-serif;
     font-size: 40px;
     text-align: center;
 }
 
 #f2{
-    font-family: cursive;
+    font-family: 'IBM Plex Sans KR', sans-serif;
     font-size:  30px; ;
     text-align: center;
     color: rgb(230, 56, 56);
 }
 p{ 
     color:rgb(25, 44, 218);
-    font-family: cursive;
+    font-family: 'IBM Plex Sans KR', sans-serif;
     font-size: 30px;
     text-align: center;
     
@@ -29,7 +29,7 @@ p{
 
 .tud{
 color:black;
-font-family: cursive;
+font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 
@@ -41,13 +41,13 @@ font-family: cursive;
     font-size: 30px;
     border: 2px solid red;
    text-align: center;
-   font-family: cursive;
+   font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .copyright{
 
     color: black;
-    font-family: cursive;
+    font-family: 'IBM Plex Sans KR', sans-serif;
    
 }
 
@@ -55,7 +55,7 @@ font-family: cursive;
   letter-spacing:1ch;
     color: black;
     text-align: center;
-    font-family:cursive ;
+    font-family: 'IBM Plex Sans KR', sans-serif;
     font-size: 30px;
 }
 .webseries{
@@ -63,10 +63,10 @@ font-family: cursive;
     font-size: 30px;
     border: 2px solid red;
    text-align: right;
-   font-family: cursive;
+   font-family: 'IBM Plex Sans KR', sans-serif;
 }
 .web{
-    font-family: cursive;
+    font-family: 'IBM Plex Sans KR', sans-serif;
     font-size:30px ;
     letter-spacing: 1ch;
 }
