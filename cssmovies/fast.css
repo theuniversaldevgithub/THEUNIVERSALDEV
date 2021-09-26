@@ -1,0 +1,17 @@
+*{
+    font-family: 'Russo One', sans-serif;
+    background-color: black;
+}
+.name{
+    color: white;
+    font-size: 40px;
+}
+.trailer{
+    color: white;
+    font-size: 30px;
+}
+.btn{
+    color: white;
+    font-size: 35px;
+    border: 1px solid red;
+}
