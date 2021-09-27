@@ -42,6 +42,8 @@ font-family: 'IBM Plex Sans KR', sans-serif;
     border: 2px solid red;
    text-align: center;
    font-family: 'IBM Plex Sans KR', sans-serif;
+    border-radius: 30px;
+   margin-top: 30px;
 }
 
 .copyright{
@@ -57,13 +59,7 @@ font-family: 'IBM Plex Sans KR', sans-serif;
     font-family: 'IBM Plex Sans KR', sans-serif;
     font-size: 30px;
 }
-.webseries{
-    background-color:pink;
-    font-size: 30px;
-    border: 2px solid red;
-   text-align: center;
-   font-family: 'IBM Plex Sans KR', sans-serif;
-}
+
 .web{
     font-family: 'IBM Plex Sans KR', sans-serif;
     font-size:30px ;
