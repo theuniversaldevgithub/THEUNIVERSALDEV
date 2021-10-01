@@ -13,3 +13,18 @@ font-family:Comic Sans MS ;
 	 no-repeat center center;	
 	z-index: 99999;
 }
+#X{
+	padding-left: 113px; 
+	font-family: arial black;
+}
+#cp{
+	padding-left: 46px;
+	font-family: arial black;
+	font-style: italic;
+}
+#TUD{
+	font-weight: bold;
+	color: black;
+	font-family: arial black;
+	font-style: italic;
+}
