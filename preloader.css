@@ -15,16 +15,16 @@ font-family:Comic Sans MS ;
 }
 #X{
 	padding-left: 113px; 
-	font-family: arial black;
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 #cp{
 	padding-left: 46px;
-	font-family: arial black;
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-style: italic;
 }
 #TUD{
 	font-weight: bold;
 	color: black;
-	font-family: arial black;
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-style: italic;
 }
