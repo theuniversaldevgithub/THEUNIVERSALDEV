@@ -1,7 +1,8 @@
 *{
 padding: 0;
 margin: 0;
-font-family:Comic Sans MS ;
+font-family: 'Rubik', sans-serif;
+   font-style: italic;
 }
 #loading{
 	position: fixed;
