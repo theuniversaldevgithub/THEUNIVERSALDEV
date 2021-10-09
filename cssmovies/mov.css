@@ -1,20 +1,24 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+
 #f1{
     
     color: rgb(230, 56, 56);
-    font-family: 'IBM Plex Sans KR', sans-serif;
+
     font-size: 40px;
     text-align: center;
 }
 
 #f2{
-    font-family: 'IBM Plex Sans KR', sans-serif;
+
     font-size:  30px; ;
     text-align: center;
     color: rgb(230, 56, 56);
 }
 p{ 
     color:rgb(25, 44, 218);
-    font-family: 'IBM Plex Sans KR', sans-serif;
+
     font-size: 30px;
     text-align: center;
     
@@ -29,7 +33,6 @@ p{
 
 .tud{
 color:black;
-font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 
@@ -41,14 +44,14 @@ font-family: 'IBM Plex Sans KR', sans-serif;
     font-size: 30px;
     border: 2px solid red;
    text-align: center;
-   font-family: 'IBM Plex Sans KR', sans-serif;
-    border-radius:30px;
-   margin-top:30px;
+
+   border-radius: 30px;
+   margin-top: 30px;
    cursor: pointer;
 }
 .list:hover{
-   background-color:white;
-   font-size:50px;
+   background-color: white;
+    font-size: 50px;
 }
 
 .copyright{
@@ -61,12 +64,12 @@ font-family: 'IBM Plex Sans KR', sans-serif;
   letter-spacing:1ch;
     color: black;
     text-align: center;
-    font-family: 'IBM Plex Sans KR', sans-serif;
+
     font-size: 30px;
 }
 
 .web{
-    font-family: 'IBM Plex Sans KR', sans-serif;
+
     font-size:30px ;
     letter-spacing: 1ch;
 }
