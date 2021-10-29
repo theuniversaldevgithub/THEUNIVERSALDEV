@@ -45,10 +45,11 @@ color:black;
     font-size: 30px;
     border: 2px solid red;
    text-align: center;
-
+ text-decoration: none;
    border-radius: 30px;
    margin-top: 30px;
    cursor: pointer;
+       color: black;
 }
 .list:hover{
    background-color: white;
