@@ -1,0 +1,265 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+}
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url("loading.gif")
+	 no-repeat center center;	
+	z-index: 99999;}
+/* ye charlie puth ki css hai */
+.bg video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: auto;
+    min-width:100% ;
+    min-height: 100%;
+    z-index: -999;
+}
+
+.cplogo{height: 100%;
+    width: 100%;
+   
+    /* float: left; */
+    margin-top: 0px;
+    /* margin-left: 1%; */
+}
+#who:hover{
+    
+    background-color: white;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+#who{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    /* margin-left: 30%; */
+    clear: left;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px;
+    margin-top: 14px;
+    
+}
+#ldcp:hover{
+    clear: left;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding:5px ;
+}
+#ldcp{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: black;
+    color: white ;
+    clear: left;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left:30px; 
+    padding: 3px;
+}
+ #homecp{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: black;
+    color: white ;
+    clear: left;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left:45px; 
+    padding: 3px; 
+    }
+    #homecp:hover{
+        clear: left;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding:5px ;
+    }
+    
+
+/* YAHA SE ABOUT KI CSS HAI  */
+#cpd{
+   padding: 45px;
+}
+#cpa{
+    font-size:300%;
+    text-align: center;
+}
+#cpa1{
+    padding:50px ;
+    padding-top: 2px;
+} 
+p{
+    font-size: 15px;
+}
+
+#goback{
+    text-decoration: none;
+    color: black;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+   
+   
+}
+#goback:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    
+}
+/* yaha se misic+video ki css hai  */
+
+#mvcp{
+    font-size: 70px;
+    text-align: center;
+    /* letter-spacing: 1ch; */
+}
+#mval{
+    font-size: 43px;
+    text-align: center;
+    letter-spacing: 1ch;   
+}
+.btnalb1{
+    text-decoration: none;
+      font-size: 25px;
+    padding:6px;
+    border: 4px solid black;
+    margin-bottom: 2%;
+    background-color: #87754D;
+    color: white;
+    border-radius: 8px;
+}
+.btnalb2{
+text-decoration: none;
+    font-size: 25px;
+    padding: 6px;
+    border: 4px solid red;
+    margin-bottom: 2%;
+    background-color: black;
+    color: red;
+    border-radius: 8px;
+}
+.btnalb3{
+    text-decoration: none;
+        font-size: 25px;
+        padding: 6px;
+        border: 4px solid black;
+        margin-bottom: 2%;
+        background-color: white;
+        color:black;
+        border-radius: 8px;
+    }
+    
+#download{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px;
+    border: 4px solid black;
+    color:white;
+    background-color: green;
+    border-radius: 8px;
+    margin-top: 18px;
+}
+#download:hover{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px;
+    border: 4px solid black;
+    color:black;
+    background-color: white;
+    border-radius: 8px;
+    /* margin-left: 42%; */
+    /* text-align: center; */
+}
+#albtn:hover{
+    background-color: black;
+    color: white;
+}
+#download1{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px;
+    border: 4px solid black;
+    color:white;
+    background-color: rgb(238, 155, 2);
+    border-radius: 8px;
+    margin-top: 2%;
+}
+#download1:hover{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px;
+    border: 4px solid black;
+    color:black;
+    background-color: white;
+    border-radius: 8px;
+}
+/* ye voicenotes ka css hai */
+#vd{
+    font-size: 35px;
+    color: white;
+}
+#songs{
+    font-size: 30px;
+    /* border: 4px solid black; */
+}
+.audio{
+    color: white;
+    
+}
+.songname{
+    margin-top: 3%;
+    color: white;
+}
+#bigdiv{
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+    text-align: center;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 2%;
+}
+/* yaha se nine track mind ki css hai */
+#ntm{
+    text-align: center;
+    font-size: 35px;
+}
+#songlistntm{
+    background-color: #87754D;
+    /* color: white; */
+    border: 3px solid black;
+    text-align: center;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 2%;
+}
+/* yaha se superhis ki css hai  */
+#super{
+    /* background-color: #87754D; */
+    /* color: white; */
+    border: 3px solid black;
+    text-align: center;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 2%;
+}
+
