@@ -1,0 +1,453 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Rubik', sans-serif;
+   font-style: italic;
+   text-decoration: none;
+	list-style: none;
+}
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url("loaderTUD.gif")
+	 no-repeat center center;	
+	z-index: 99999;
+}
+#X{
+	padding-left: 113px; 
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+#cp{
+	padding-left: 46px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-style: italic;
+}
+/* yaha se new css hai */
+.cpslider{
+	width: 302px;
+	height: 302px;
+	/* position: absolute; */
+	/* left: 3%; */
+	/* top: 50%; */
+	/* transform: translate(-50%, -50%); */
+	/* transform: translate(-3%,); */
+	background-image:url('after.jpg');
+	background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 4px black;
+	animation: cpsliderphoto 16s infinite linear  ;
+	margin: auto;
+	background-size: 100%,100%;
+
+}
+@keyframes cpsliderphoto{
+	0%{ background-image:url('cpphotos/cpp.jpg');}
+	25%{background-image:url('cpphotos/i\ hope.jpg'); }
+	50%{ background-image:url('cpphotos/cp4.png');}
+	75%{background-image:url('cpphotos/cpp1.jpg');}
+	100%{ background-image:url('cpphotos/NineTrackMindde.jfif');}
+
+}
+
+#btn{
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+	padding:6px;
+	border: 2px solid black;
+	cursor:pointer;
+	font-size: 13px;
+	border-radius: 4px;
+	text-decoration: none;
+	color: black;
+}
+#btn:hover{
+	background-color: black;
+	color: white;
+}
+#btn1{
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+	padding:6px;
+	border: 2px solid black;
+	cursor:pointer;
+	font-size: 13px;
+	border-radius: 4px;
+
+	margin-left: 18px;
+	text-decoration: none;
+	color: black;
+	/* border: none; */
+
+}
+#btn1:hover{
+	background-color: black;
+	color: white;
+}
+#btn2{
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+	padding:6px;
+	border: 2px solid black;
+	cursor:pointer;
+	font-size: 13px;
+	border-radius: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: black;
+}
+#btn2:hover{
+	background-color: black;
+	color: white;
+}
+/* .section1{
+	height: 100vh;
+	width: 100%;
+	background-image: url('img1.jpeg');
+	background-attachment: fixed;
+	background-size:100% ;
+}
+.section2{
+	height: 100vh;
+	width: 100%;
+	background-image: url('img2.jpeg');
+	background-attachment: fixed;
+	background-size:100% ;
+	
+} */
+#signup{
+	border-radius: 6px;
+	border: 2px solid white;
+	/* margin-left: 10px;  */
+	/* margin-right: 10px; */
+	margin-top: 10px;
+	padding: 12px;
+	text-align: center;
+	/* font-size: 10px; */
+background-image: url('photos/pro1.jpg');
+	color: white;
+	background-size: cover;
+}
+#sbtn{
+	/* float: right; */
+	border: 2px solid blue;
+	border-radius: 6px;
+	color: white;
+	background-color: rgb(28, 28, 219);
+	padding: 5px;
+
+	
+
+}
+.codebg{
+	background-size: cover;
+	background-image: url('photos/pro1.jpg');
+	/* margin-top: 10px; */
+	/* background: no-repeat; */
+}
+.codebg1{
+	background-size: cover;
+	background-image: url('photos/img2.jpeg');
+	margin-top: 10px;
+	/* background: no-repeat; */
+}
+
+
+#TUD{
+	font-weight: bold;
+	color: white;
+	font-style: italic;
+	text-align: center;
+}
+.tudpoint{
+	color: white;
+   text-align: center;
+   padding: 25px;
+}
+#lto{
+	font-weight: bold;
+	color: white;
+	font-style: italic;
+	text-align: center;
+	padding: 30px;
+	letter-spacing: 0.4ch;
+}
+.point{
+	font-weight: bold;
+	color:white;
+	font-style: italic;
+	text-align: center;
+	font-size: 1rem;
+	padding: 30px;
+	
+}
+.cpdiv{
+
+	text-align: center;
+}
+#cpbtn{
+	border:4px solid black;
+	border-radius: 4px;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 20px;
+	letter-spacing: 1ch;
+	background-color: black;
+	font-weight: bold;
+
+}
+#cpbtn:hover{
+	/* background-color:white;
+	color: black;
+	text-decoration: none;
+	border:4px solid black;
+	border-radius: 4px; */
+	background-image: url('cpphotos/cp.png');
+	background-size: 100%;
+	background-position-y: 12%;
+	padding: 100px;
+	border-radius: 10px;
+
+}
+/* yaha se pricing ki css hai  */
+  
+  /* body{
+	min-height: 100vh;
+  } */
+  
+  .container{
+	max-width: 1000px;
+	margin: auto;
+	padding: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	/* text-align: center; */
+  }
+  
+  .pricing-table{
+	background: #f1f1f1;
+	flex: 1;
+	margin: 10px;
+	text-transform: uppercase;
+  }
+  
+  .pricing-header{
+	color: #fff;
+	position: relative;
+	margin-bottom: 20px;
+  }
+  
+  .price{
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 0;
+  }
+  
+  .price span{
+	font-size: 23px;
+  }
+  
+  .title{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%,50%);
+	width: 80%;
+	max-width: 360px;
+	text-align: center;
+	padding: 8px 0;
+	font-size: 14px;
+	background-color: white;
+	color: black;
+  }
+  
+  .pricing-list{
+	padding: 10px 20px;
+  }
+  
+  .pricing-list li{
+	margin: 8px 0;
+	font-size: 14px;
+	color: #344;
+	text-align: center;
+  }
+  
+  .border{
+	width: 80px;
+	height: 1px;
+	background: #ddd;
+	margin: auto;
+  }
+  
+  .pricing-table a{
+	display: block;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 8px 0;
+	font-size: 14px;
+	border: 1px solid;
+	max-width: 360px;
+	transition: .2s linear;
+  }
+  .pricing-table a:hover{
+	border-radius: 30px;
+  }
+  .table1 .pricing-header{
+	background: black;
+  }
+  .table2 .pricing-header{
+	background:black ;
+  }
+  .table3 .pricing-header{
+	background: black;
+  }
+  
+  
+  .table1 a{
+	color: black;
+  }
+  .table2 a{
+	color: black;
+  }
+  .table3 a{
+	color: black;
+  }
+  
+  
+  .table1 a:hover{
+	background: black;
+	color: #fff;
+  }
+  .table2 a:hover{
+	background: black;
+	color: #fff;
+  }
+  .table3 a:hover{
+	background: black;
+	color: #fff;
+  }
+  @media screen and (max-width:780px) {
+	.pricing-table{
+	  flex: 100%;
+	}
+  }
+  /* ye social media ka css hai */
+  .side-menu{
+	position: fixed;
+	top: 50%;
+	right: -200px;
+	width: 200px;
+	background-color: #f1f1f1aa;
+	transition: .4s linear;
+	text-decoration: none;
+	box-sizing: border-box;
+  }
+  
+  .side-menu.active{
+	right: 0;
+  }
+  
+  .side-menu a{
+	display: block;
+	padding: 14px 10px;
+	color: #333;
+	font-size: 20px;
+	transition: .4s linear;
+  }
+  
+  .side-menu a i{
+	width: 40px;
+	font-size: 24px;
+	text-align: center;
+  }
+  
+  .side-menu a:hover{
+	background-color: #333;
+	color: #f1f1f1;
+  }
+  
+  .toggle-btn{
+	position: absolute;
+	left: -40px;
+	top: 0;
+	width: 40px;
+	height: 60px;
+	background: #333;
+	color: #f1f1f1;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+  }  
+  /* yo */
+  .socialm{
+	 text-align: center;
+  }
+.socialm img{
+	margin-top: 20px;
+	padding: 10px;
+	
+
+}
+/* fodng */
+.amazon{
+	text-align: center;
+	/* background-image: url('photos/amazon.jpg'); */
+	/* background-size: cover; */
+
+}
+#bestamazon{
+	border: 2px solid yellow;
+}
+.amazon a{
+	border: 2px solid yellow;
+	text-decoration: none;
+	padding: 6px;
+	color: black;
+	background-color: rgb(197, 197, 197);
+} 
+/* about ki css ye hai */
+.ab1{
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
+	background-image: url('photos/img1.jpeg');
+	background-size: cover;
+	color: white;
+}
+/* mysupporter ki css */
+
+.ms1{
+	text-align: center;
+    margin-top: 30px;
+	background-image: url('photos/img1.jpeg');
+	background-size: cover;
+	color: white;
+}
+/* go back */
+#goback{
+    text-decoration: none;
+    color: black;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+   
+   
+}
+#goback:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    
+}
