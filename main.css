@@ -41,6 +41,7 @@ font-family: 'Rubik', sans-serif;
 .cpslider figure img {
 	width: 20%;
 	float: left;
+
 }
 @keyframes cpslider{
 	0%{
@@ -179,6 +180,7 @@ background-image: url('photos/pro1.jpg');
 	/* margin-top: 10px; */
 	/* background: no-repeat; */
 }
+
 
 #TUD{
 	font-weight: bold;
