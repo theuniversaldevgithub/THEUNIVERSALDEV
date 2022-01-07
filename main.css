@@ -25,39 +25,64 @@ font-family: 'Rubik', sans-serif;
 	font-style: italic;
 }
 /* yaha se new css hai */
+/* yaha se u4m ka slider hai  */
 .cpslider{
-	width: 302px;
-	height: 302px;
-	/* position: absolute; */
-	/* left: 3%; */
-	/* top: 50%; */
-	/* transform: translate(-50%, -50%); */
-	/* transform: translate(-3%,); */
-	background-image:url('after.jpg');
-	background-size: 100% 100%;
-    box-shadow: 1px 2px 10px 4px black;
-	animation: cpsliderphoto 16s infinite linear  ;
-	margin: auto;
-	background-size: 100%,100%;
+	overflow: hidden;
+	/* text-decoration: none; */
+	/* margin-top: 40rem; */
+}
+.cpslider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 14s cpslider infinite;
+}
+.cpslider figure img {
+	width: 20%;
+	float: left;
 
 }
-@keyframes cpsliderphoto{
-	0%{ background-image:url('cpphotos/cpp.jpg');}
-	25%{background-image:url('cpphotos/i\ hope.jpg'); }
-	50%{ background-image:url('cpphotos/cp4.png');}
-	75%{background-image:url('cpphotos/cpp1.jpg');}
-	100%{ background-image:url('cpphotos/NineTrackMindde.jfif');}
+@keyframes cpslider{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
 
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
 }
+
 
 #btn{
 	text-align: center;
 	font-weight: bold;
 	background-color: white;
-	padding:6px;
+	padding: 0.4em;
 	border: 2px solid black;
 	cursor:pointer;
-	font-size: 13px;
+	font-size: 0.8rem;
 	border-radius: 4px;
 	text-decoration: none;
 	color: black;
@@ -70,13 +95,13 @@ font-family: 'Rubik', sans-serif;
 	text-align: center;
 	font-weight: bold;
 	background-color: white;
-	padding:6px;
+	padding: 0.4em;;
 	border: 2px solid black;
 	cursor:pointer;
-	font-size: 13px;
+	font-size: 0.8rem;
 	border-radius: 4px;
 
-	margin-left: 18px;
+	margin-left: 1rem;
 	text-decoration: none;
 	color: black;
 	/* border: none; */
@@ -90,14 +115,15 @@ font-family: 'Rubik', sans-serif;
 	text-align: center;
 	font-weight: bold;
 	background-color: white;
-	padding:6px;
+	padding: 0.4em;;
 	border: 2px solid black;
 	cursor:pointer;
-	font-size: 13px;
+	font-size: 0.8rem;
 	border-radius: 4px;
-	margin-top: 10px;
+	margin-left: 1rem;
 	text-decoration: none;
 	color: black;
+	/* letter-spacing: 0.2rem; */
 }
 #btn2:hover{
 	background-color: black;
@@ -151,7 +177,7 @@ background-image: url('photos/pro1.jpg');
 .codebg1{
 	background-size: cover;
 	background-image: url('photos/img2.jpeg');
-	margin-top: 10px;
+	/* margin-top: 10px; */
 	/* background: no-repeat; */
 }
 
@@ -450,4 +476,74 @@ background-image: url('photos/pro1.jpg');
     border-radius: 10px;
     color: black;
     
+}
+.pricing{
+	text-align: center;
+	margin-top: 2rem;
+}
+/* yaha se u4m ka slider hai  */
+.u4mslider{
+	overflow: hidden;
+	/* text-decoration: none; */
+	/* margin-top: 40rem; */
+}
+.u4mslider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 14s u4mslider infinite;
+}
+.u4mslider figure img {
+	width: 20%;
+	float: left;
+
+}
+@keyframes u4mslider{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+
+#wee{
+	color: blue;
+}
+.u4mslider h2{
+	text-align: center;
+	margin-top: 1rem;
+}
+.u4mbtndiv{
+	text-decoration: none;
+	text-align: center;
+	margin-top: 10ch;
+}
+#u4mbtn{
+	text-align: center;
+	color: black;
+	border: 2px solid black;
 }
