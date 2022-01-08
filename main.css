@@ -36,7 +36,7 @@ font-family: 'Rubik', sans-serif;
 	width: 500%;
 	margin: 0;
 	left: 0;
-	animation: 14s cpslider infinite;
+	animation: 16s cpslider infinite;
 }
 .cpslider figure img {
 	width: 20%;
@@ -492,7 +492,7 @@ background-image: url('photos/pro1.jpg');
 	width: 500%;
 	margin: 0;
 	left: 0;
-	animation: 14s u4mslider infinite;
+	animation: 16s u4mslider infinite;
 }
 .u4mslider figure img {
 	width: 20%;
