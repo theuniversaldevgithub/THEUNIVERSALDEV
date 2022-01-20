@@ -37,7 +37,7 @@
     border: 2px solid black;
     text-decoration: none;
     color: black;
-    padding: 5px;
+    padding: 3px;
 }
 #who{
     background-color: black;
@@ -57,7 +57,7 @@
     background-color: white;
     border: 2px solid black;
     color: black;
-    padding:5px ;
+    padding:3px ;
 }
 #ldcp{
     background-color: black;
@@ -85,7 +85,7 @@
     background-color: white;
     border: 2px solid black;
     color: black;
-    padding:5px ;
+    padding: 3px;
     }
     #live{
         background-color: black;
@@ -103,7 +103,7 @@
     background-color: white;
     border: 2px solid black;
     color: black;
-    padding:5px ;
+    padding:3px ;
 }
 #lightbtn{
         background-color: black;
@@ -172,6 +172,16 @@ p{
     text-align: center;
     letter-spacing: 1ch;   
 }
+.btnalblight{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px;
+    border: 4px solid white;
+    margin-bottom: 2%;
+    background-color:  #302e2f;
+    color:#95694c;
+    border-radius: 8px;
+}
 .btnalb1{
     text-decoration: none;
       font-size: 25px;
@@ -181,6 +191,10 @@ p{
     background-color: #87754D;
     color: white;
     border-radius: 8px;
+}
+.btnalb1:hover{
+    background-color: black;
+    color: white;
 }
 .btnalb2{
 text-decoration: none;
@@ -192,6 +206,10 @@ text-decoration: none;
     color: red;
     border-radius: 8px;
 }
+.btnalb2:hover{
+    background-color: black;
+    color: white;
+}
 .btnalb3{
     text-decoration: none;
         font-size: 25px;
@@ -202,7 +220,10 @@ text-decoration: none;
         color:black;
         border-radius: 8px;
     }
-    
+    .btnalb3:hover{
+        background-color: black;
+        color: white;
+    }
 #download{
     text-decoration: none;
     font-size: 25px;
@@ -224,10 +245,7 @@ text-decoration: none;
     /* margin-left: 42%; */
     /* text-align: center; */
 }
-#albtn:hover{
-    background-color: black;
-    color: white;
-}
+
 #download1{
     text-decoration: none;
     font-size: 25px;
