@@ -186,6 +186,7 @@
   });
 
 })()
+
 // ye wali script right click disable kr ne ki hai 
 document.addEventListener("contextmenu", function (e) {
   e.preventDefault();
@@ -207,5 +208,11 @@ document.onkeydown = function (e) {
     return false;
   }
 }
+
+
+
+
+
+
 
 

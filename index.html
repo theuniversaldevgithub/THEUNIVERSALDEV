@@ -17,9 +17,11 @@
   <link href="style.css" rel="stylesheet">
   <!-- loader css and script -->
   <style>
-    #preloader {
-      height: 300px;
-      width: 300px;
+     #preloader {
+      height: 100%;
+      width: 100%;
+      /* height: 300px;
+      width: 300px; */
       position: absolute;
       z-index: 100;
       margin: auto;
@@ -27,9 +29,14 @@
       bottom: 0;
       left: 0;
       right: 0;
+      text-align: center;
+      align-items: center;
+      background-color: black;
+      display: grid;
+      place-items: center;
     }
     #preloader img {
-      width: 300px;
+      width: 320px;
     }
     #fullpagecontent {
       display: none;
@@ -44,18 +51,16 @@
 </head>
 <body>
   <div id="preloader">
-    <img src="logoTUD.png" alt="loader">
-    <!-- <h2> ooh ur still alive</h2> -->
-    <img src="loading.gif" alt="loader">
+    <img src="loader-logo.gif" alt="loader">
   </div>
   <!-- this is loader div for content -->
   <div id="fullpagecontent">
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top ">
       <div class="container d-flex align-items-center justify-content-between">
-        <a href="index.html" class="logo"><img src="assets/logo.png" alt="" class="img-fluid"></a>
+        <a href="index.html" class="logo"><img src="assets/new-logo.png" alt="" class="img-fluid"></a>
         <!-- Uncomment below if you prefer to use an text logo -->
-        <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
+        <!-- <h1 class="logo"><a href="index.html">THE UNIVERSAL DEV</a></h1> -->
         <nav id="navbar" class="navbar">
           <ul>
             <li><a class="nav-link scrollto" href="#hero">Home</a></li>
@@ -68,12 +73,20 @@
         </nav>
       </div>
     </header>
-    <section class="hero69">
-    <div class="hero-content69">
-      <h1>Start Building Your Dream Website Today</h1>
-      <a href="#about" class="btn69">Lets go</a>
-    </div>
-  </section>
+    <!-- pc -->
+    <section class="hero-video-PC">
+      <div class="hero-content-video-PC">
+        <!-- <h1>Start Building Your Dream Website Today</h1>
+        <a href="#about" class="btn69">Lets go</a> -->
+      </div>
+    </section>
+    <!-- phone -->
+      <section class="hero-video-PH">
+      <div class="hero-content-video-PH">
+        <!-- <h1>Start Building Your Dream Website Today</h1>
+        <a href="#about" class="btn69">Lets go</a> -->
+      </div>
+    </section>
   <main id="main">
       <div id="about" class="paddsection">
         <div class="container">
@@ -176,6 +189,15 @@
                   <p>Unplanned Vignette is a website that features a random image generator. Whenever a user visits or refreshes the page, the website generates a new, unique image for them to view.</p>
                 </div>
               </div>
+              <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <a href="#" title="">
+                  <img src="assets/anjanihomes.png" class="img-fluid" alt="Anjani-Homes">
+                </a>
+                <div class="portfolio-info">
+                  <h4>Anjani Homes</h4>
+                  <p>Comming Soon!!!</p>
+                </div>
+              </div> -->
               <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <a href="v2.html" title="V2 Classes">
                   <img src="assets/v2.jpeg" class="img-fluid" alt="V2 Classes">
@@ -209,7 +231,7 @@
                 </a>
                 <div class="portfolio-info">
                   <h4>Charlie Puth</h4>
-                  <p></p>
+                  <p>Charlie Puth is an American singer, songwriter, and record producer. He is known for his soulful voice, and his global hits, and his ability to play multiple musical instruments.</p>
                 </div>
               </div>
               <div class="col-lg-4 col-md-6 portfolio-item filter-web">
@@ -257,10 +279,10 @@
             </div>
         </div>
       </div><!-- End Contact Section -->
-    </main><!-- End #main -->
+    </main><!-- End #main --> 
     <div id="testimonials">
         <div class="container">
-          <h6 style="color:transparent;">HI! SURPRISE</h6>
+          <h6 style="color:transparent;">Hello! SURPRISE</h6>
             <h2 style="color:#fff;text-align: center;margin-top: 2rem;">TESTIMONIALS</h2>
         </div>
         <div class="main-testimonial">
@@ -279,14 +301,6 @@
         </div>
           <div id="footer" class="text-center">
             <div class="container">
-          <div class="socials-media text-center">
-            <ul class="list-unstyled">
-              <li><a target="_blank" href="https://www.facebook.com/deva.ealiya"><i class="bi bi-facebook"></i></a></li>
-              <li><a target="_blank" href="https://twitter.com/dev_ealiya"><i class="bi bi-twitter"></i></a></li>
-<!--               <li><a target="_blank" href="https://www.instagram.com/devealiya/"><i class="bi bi-instagram"></i></a></li> -->
-              <!-- <li><a href="#"><i class="bi bi-linkedin"></i></a></li> -->
-            </ul>
-          </div>
           <p>&copy; 2021-
             <script>document.write("" + new Date().getFullYear(), "");</script> THE UNIVERSAL DEV<br>All rights reserved.
           </p>
